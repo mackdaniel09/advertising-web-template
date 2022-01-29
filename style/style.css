@@ -1,0 +1,39 @@
+.carousel-item {
+  background-color: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ) !important;
+}
+.button {
+  background: #3dcfc2 !important;
+}
+.navbar {
+  background: #3dcfc2 !important;
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    height: 100%;
+  }
+  .about .d-flex {
+    flex-direction: column;
+  }
+  .about .d-flex p,
+  .about .d-flex div {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption i {
+    font-size: 0.8rem;
+  }
+  .carousel-caption h1 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+  nav .navbar-brand {
+    font-size: 1rem;
+  }
+}
